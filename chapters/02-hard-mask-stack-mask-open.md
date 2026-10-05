@@ -181,8 +181,8 @@ After the trench etch, the remaining 300 nm BSG and the sidewall passivation fil
 
 ```
 Post-etch clean (illustrative):
-  1. Dilute HF (100:1) or vapour HF: removes BSG at ≈ 30 nm/s; removes
-     SiOₓBrᵧ/SiOₓFᵧ sidewall film; undercuts pad oxide by ≤ 3 nm
+  1. Dilute HF (50:1) or vapour HF: removes BSG at ≈ 2–5 nm/s; removes
+     SiOₓBrᵧ/SiOₓFᵧ sidewall film; undercuts the 5 nm pad oxide by ≈ 5–10 nm (budgeted in the collar design)
   2. SPM (H₂SO₄/H₂O₂): organics and metal residue
   3. SC1 dilute: particles; light Si oxidation
   4. Dilute HF last: removes chemical oxide before collar/bottle steps
