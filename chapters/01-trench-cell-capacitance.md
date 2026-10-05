@@ -68,7 +68,7 @@ Cross-section of the reference trench cell (not to scale):
                                      │ poly  │     vertical transistor)
                                      ├───────┤
                                     ╱  node   ╲ 1.20–4.80 µm: bottle,
-                                   │ dielectric│ widened 20 nm per side,
+                                   │ dielectric│ widened 25 nm per side,
                                    │  + poly   │ As-doped buried plate outside
                                    │  storage  │
                                     ╲  node   ╱
@@ -129,7 +129,7 @@ Aspect ratio:
 Wall between neighbours along the minor axis:
   At the top:         180 − 70 = 110 nm
   At mid-depth (CD 60): 120 nm
-  In the bottle (minor CD widened to ≈ 100 nm at mid-depth): 80 nm
+  In the bottle (minor CD widened from 61 to ≈ 110 nm at mid-bottle): 70 nm
   Minimum allowed (dielectric field, buried-plate depletion,
   node-to-node short margin): 40 nm
 ```
@@ -158,7 +158,8 @@ Without a bottle (tapered ellipse, average perimeter below the collar ≈ 255 nm
   Bottom: ≈ 0.010 µm² (rounded, 50 × 88 nm)
   Total ≈ 0.93 µm² → C_s = 0.93 × 13.8 = 12.8 fF
 
-With the reference bottle (+20 nm per side: minor 110, major 150 at mid-bottle):
+With the reference bottle (+25 nm per side on the as-etched 61 × 97 nm
+ellipse at mid-bottle → minor 110, major 150):
   Perimeter at a = 55, b = 75:
     π[3 × 130 − √(240 × 280)] = π[390 − 259.2] = 411 nm
   Wall:   0.411 µm × 3.60 µm = 1.480 µm²
@@ -272,7 +273,7 @@ The etch owns about a third of the variance. Because a CD error of 3 nm costs 78
                          capacitors; legacy DRAM
 ```
 
-The trench lost commodity DRAM largely because scaling the cell below about 40 nm made the bottle wall and the vertical parasitic device hard to control. It kept eDRAM because it is formed before the logic transistors and leaves the planar surface intact for them. Chapter 13 covers the SOI eDRAM variant, and Chapter 14 the silicon trench capacitors that use the same etch for passive devices.
+The trench lost commodity DRAM largely because scaling the cell below about 40 nm made the bottle wall and the vertical parasitic device hard to control. It kept eDRAM because it is formed before the logic transistors and leaves the planar surface intact for them. Chapter 13 covers the bottle etch, and Chapter 14 the SOI eDRAM variant and the silicon trench capacitors that use the same etch for passive devices.
 
 ---
 
@@ -282,7 +283,7 @@ The trench lost commodity DRAM largely because scaling the cell below about 40 n
 
 2. **Three levers.** Dielectric thickness, depth, and bottle widening; the etch owns depth and the template for the bottle.
 
-3. **The reference trench.** 70 × 110 nm ellipse, 5.00 µm deep, 71:1 at the top CD, 83:1 at the average CD; 20.6 fF with a 20 nm-per-side bottle.
+3. **The reference trench.** 70 × 110 nm ellipse, 5.00 µm deep, 71:1 at the top CD, 83:1 at the average CD; 20.6 fF with a 25 nm-per-side bottle.
 
 4. **No etch stop.** Depth is set by time; each nanometre of CD becomes 26 nm of depth and 0.15 fF.
 
@@ -302,7 +303,7 @@ The trench lost commodity DRAM largely because scaling the cell below about 40 n
 
 4. A lot arrives with top minor CD 67 nm. Estimate the depth and capacitance change at the reference etch time.
 
-5. The bottle widening is raised to 25 nm per side. Compute the capacitance and the remaining silicon wall at mid-depth along the minor axis.
+5. The bottle widening is raised to 30 nm per side. Compute the capacitance and the remaining silicon wall at mid-depth along the minor axis.
 
 6. Explain why the trench etch has no etch-stop layer and list three ways the process controls depth without one.
 
