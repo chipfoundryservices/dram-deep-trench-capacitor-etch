@@ -77,7 +77,7 @@ Pure HBr (with an inert diluent) etches silicon anisotropically and selectively,
 ## 3.3 The DT-R1 Chemistry
 
 ```
-DT-R1 main etch (illustrative):
+DT-R1 main etch, ME2 conditions (illustrative; the full three-step recipe is in Chapter 8):
   HBr 300 sccm, NF₃ 30 sccm, O₂ 18 sccm, He 100 sccm (+ SiF₄ 0–10 sccm)
   Pressure 30 mTorr; ICP source 2.5 kW at 13.56 MHz
   Bias 900 W at 2 MHz → ⟨E_i⟩ ≈ 450 eV, peaks near 150 and 750 eV
